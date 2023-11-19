@@ -1,0 +1,24 @@
+.hero{
+    padding: 0 0;
+    padding-top: 469px;
+
+    background-size: 893px 1024px;
+
+    &__title{
+        margin-bottom: 417px;
+    }
+
+    .container{
+        padding: 0;
+        padding-bottom: 90px;
+    }
+
+    a svg use{
+        stroke: #FFF;
+    }
+
+    a:hover svg use{
+        transition: 0.3s;
+        stroke: #F0145A;
+    }
+}

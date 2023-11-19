@@ -1,0 +1,18 @@
+.page-template-services{
+    .services{
+        .container{
+            padding: 280px 60px 60px 60px;
+            margin: 0 auto;
+            max-width: 1440px;
+        }
+
+        &__list{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 100%;
+            margin: 0 auto;
+            gap: 60px;
+            width: 100%;
+        }
+    }
+}

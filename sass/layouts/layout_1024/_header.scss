@@ -1,0 +1,128 @@
+.header .container{
+    align-items: unset;
+    max-width: 1440px;
+}
+
+.header{
+
+    &__top{
+        display: none;
+    }
+
+    &__bottom{
+        display: none;
+    }
+
+    &__middle{
+        display: flex;
+    }
+
+    &__middle-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    &__item-middle--address{
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__item-middle--address::before{
+        content: "";
+        width: 6px;
+        height: 6px;
+        background-color: #E6E6F0;
+        border-radius: 50%;
+        margin: 0 6px;
+    }
+
+    &__item-middle--address::after{
+        content: "";
+        width: 6px;
+        height: 6px;
+        background-color: #E6E6F0;
+        border-radius: 50%;
+        margin: 0 6px;
+    }
+
+    &__item-middle--number{
+        display: flex;
+        align-items: center;
+    }
+
+    &__item-middle--number::after{
+        content: "";
+        width: 6px;
+        height: 6px;
+        background-color: #E6E6F0;
+        border-radius: 50%;
+        margin: 0 6px;
+    }
+
+    &__list-middle{
+        display: flex;
+        align-items: center;
+        a{
+            color: var(--basic-white, #FFF);
+            text-align: right;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2px;
+        }
+
+        .header__address{
+            color: var(--basic-white, #FFF);
+            letter-spacing: 1px;
+            font-weight: 400;
+        }
+
+        .header__number {
+            font-size: 16px;
+        }
+    }
+
+    &__number a{
+        font-size: 16px;
+    }
+
+    &__item-middle-pad{
+        margin: 0 6px;
+        padding-bottom: 3px;
+    }
+
+    &__item-middle--active{
+        background-color: #F0145A;
+        border-radius: 8px;
+        padding: 4px 1px;
+    }
+
+    &__nav-middle-list{
+        display: flex;
+        gap: 15px;
+
+        a{
+            color: var(--basic-white, #FFF);
+            text-align: right;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1px;
+        }
+    }
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        gap: 16px;
+    }
+
+
+}

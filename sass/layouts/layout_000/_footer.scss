@@ -1,0 +1,100 @@
+.footer{
+    background-color: #F5F5FA;
+    padding: 0 30px 30px 30px;
+    .container{
+        margin: 0 auto;
+        max-width: 768px;
+    }
+
+    &__top{
+        display: none;
+    }
+
+    &__bottom{
+        display: none;
+    }
+
+    &__mobile-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__mobile-address{
+        color: var(--main-regular, #323264);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    &__mobile-map{
+        color: var(--active-regular, #24A3FF);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+    }
+    &__mobile-item:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+
+    &__mobile-item--extra{
+        margin-bottom: 21px;
+    }
+
+    &__mobile-item--extra2{
+        margin-bottom: 30px;
+    }
+
+    &__mobile-tel{
+        color: var(--main-alt, #46466E);
+        text-align: right;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    &__mobile-email{
+        color: var(--active-regular, #24A3FF);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    &__mobile-credits{
+        color: var(--grey-text, #B3B3BA);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    svg{
+        width: 38px;
+        height: 38px;
+    }
+
+    &__tablet-wrapper{
+        display: none;
+    }
+
+    &__mobile-facebook-logo svg use{
+        fill: #24A3FF;
+    }
+
+    &__mobile-facebook-logo:hover svg use{
+        transition: 0.3s;
+        fill: #F0145A;
+    }
+}

@@ -1,0 +1,144 @@
+.services{
+
+    .container{
+        padding: 0 30px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+        max-width: 768px;
+    }
+    a{
+        color: var(--active-regular, #24A3FF);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    &__item-title{
+        color: var(--active-regular, #24A3FF);
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+
+    &__item-subtitle{
+        color: var(--basic-white, #FFF);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    &__main-title{
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: var(--gradient-red-text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 30px;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item--ecom::before{
+        content: url("../img/Ecommerce.png");
+        width: 64px;
+        height: 64px;
+        padding: 14px;
+        border-radius: 24px;
+        background: var(--basic-white, #FFF);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+
+    &__item--comp::before{
+        content: url("../img/Support.png");
+        width: 64px;
+        height: 64px;
+        padding: 14px;
+        border-radius: 24px;
+        background: var(--basic-white, #FFF);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    &__item--struc::before{
+        content: url("../img/Coprorate.png");
+        width: 64px;
+        height: 64px;
+        padding: 14px;
+        border-radius: 24px;
+        background: var(--basic-white, #FFF);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    &__item--cont::before{
+        content: url("../img/Trust.png");
+        width: 64px;
+        height: 64px;
+        padding: 14px;
+        border-radius: 24px;
+        background: var(--basic-white, #FFF);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    &__item--intel::before{
+        content: url("../img/Protection.png");
+        width: 64px;
+        height: 64px;
+        padding: 14px;
+        border-radius: 24px;
+        background: var(--basic-white, #FFF);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    &__item--judi::before{
+        content: url("../img/Court.png");
+        width: 64px;
+        height: 64px;
+        padding: 14px;
+        border-radius: 24px;
+        background: var(--basic-white, #FFF);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+

@@ -1,0 +1,18 @@
+.trust{
+    padding: 80px 60px 60px 60px;
+    
+    .container{
+        margin: 0 auto;
+        max-width: 768px;
+    }
+
+    &__title{
+        font-size: 38px;
+    }
+
+    a:hover{
+        transition: 0.3s;
+        color: #F0145A;
+    }
+
+}

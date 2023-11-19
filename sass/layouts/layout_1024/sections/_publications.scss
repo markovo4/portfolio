@@ -1,0 +1,35 @@
+.publications{
+    .container{
+        margin: 0 auto;
+        max-width: 1920px;
+    }
+
+    &__item{
+        background-color: #FFF;
+        border-radius: 12px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    &__item--tablet{
+        width: 100%;
+    }
+
+    &__main-title{
+        font-size: 38px;
+    }
+
+    &__item:not(:last-of-type){
+        margin-bottom: 0px;
+    }
+
+    &__item--tablet{
+        grid-column: unset;
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+}

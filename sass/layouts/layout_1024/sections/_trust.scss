@@ -1,0 +1,29 @@
+.trust{
+    .container{
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+
+    &__bottom-list{
+        border-radius: 0 12px 12px 0;
+        width: 504px;
+        height: 528px;
+    }
+
+    &__top-img{
+        display: flex;
+        justify-content: flex-start;
+        background-image: url("../img/dude.png");
+        background-position: center center;
+        background-size: cover;
+        width: 400px;
+        height: 528px;
+        border-radius: 12px 0 0 12px;
+    }
+
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+}

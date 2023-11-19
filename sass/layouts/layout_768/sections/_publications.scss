@@ -1,0 +1,38 @@
+.publications{
+    padding: 30px 60px 30px 60px;
+    .container{
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+
+    &__item{
+        background-color: #FFF;
+        border-radius: 12px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__item--tablet{
+        grid-column: span 2;
+    }
+
+
+
+    &__main-title{
+        font-size: 38px;
+    }
+
+    &__item:not(:last-of-type){
+        margin-bottom: 0px;
+    }
+
+    a:hover{
+        transition: 0.3s;
+        color: #F0145A;
+    }
+}

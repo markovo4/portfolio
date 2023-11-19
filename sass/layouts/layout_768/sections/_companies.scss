@@ -1,0 +1,25 @@
+.companies{
+    .container{
+        margin: 0 auto;
+        padding: 0;
+        max-width: 1024px;
+    }
+    &__title{
+        color: var(--main-regular, #323264);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+
+    }
+}

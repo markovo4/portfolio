@@ -1,0 +1,34 @@
+.page-template-services{
+    .header .container{
+        align-items: unset;
+        max-width: 1440px;
+    
+    }
+    
+    .header{
+        &__logo-text{
+            color: var(--basic-white, #FFF);
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    
+        &__top{
+            display: none;
+        }
+    
+        &__bottom{
+            display: none;
+        }
+    
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 550px;
+            gap: 16px;
+        }
+    
+    }
+}

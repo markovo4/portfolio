@@ -1,0 +1,195 @@
+.page-template-services{
+    .footer{
+        background-color: #F5F5FA;
+        padding: 30px 60px;
+        .container{
+            max-width: 768px;
+            margin: 0 auto;
+        }
+
+        &__mobile-list{
+            display: none;
+        }
+
+        &__top{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 21px;
+            padding-top: 30px;
+            border-top: 2px solid #E6E6F0;
+        }
+
+        &__bottom{
+            display: flex;
+        }
+
+        &__top-list{
+            display: flex;
+        }
+
+        &__top-credits{
+            color: var(--grey-text, #B3B3BA);
+            text-align: right;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        &__top-address{
+            color: var(--main-regular, #323264);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        &__top-map{
+            color: var(--active-regular, #24A3FF);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        &__botom-list{
+            display: flex;
+            align-items: center;
+        }
+
+        &__botom-tel{
+            color: var(--main-alt, #46466E);
+            text-align: right;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &__botom-email{
+            color: var(--active-regular, #24A3FF);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &__bottom-facebook-logo{
+            display: flex;
+            align-items: center;
+        }
+
+
+        &__bottom{
+            display: none;
+        }
+
+        &__top{
+            display: none;
+        }
+
+        &__mobile-list{
+            display: none;
+        }
+
+        &__tablet-wrapper{
+            display: flex;
+            flex-direction: column;
+            max-width: 398px;
+            margin: 0 auto;
+        }
+        
+        &__tablet-map{
+            color: var(--active-regular, #24A3FF);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        &__tablet-list{
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 21px;
+        }
+
+        &__tablet-credits{
+            color: var(--grey-text, #B3B3BA);
+            text-align: right;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        &__tablet-address{
+            color: var(--main-regular, #323264);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        &__item-tablet-pad{
+            display: flex;
+            margin: 0 10px;
+        }
+
+        &__tabletb-list{
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        &__tablet-tel{
+            color: var(--main-alt, #46466E);
+            text-align: right;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &__tablet-email{
+            color: var(--active-regular, #24A3FF);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &__tablet-facebook-logo{
+            display: flex;
+            align-items: center;
+        }
+
+        &__tablet-credits{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__tablet-facebook-logo svg use{
+            fill: #24A3FF;
+        }
+    
+        &__tablet-facebook-logo:hover svg use{
+            transition: 0.3s;
+            fill: #F0145A;
+        }
+
+        &__tablet-email:hover{
+            transition: 0.3s;
+            color: #F0145A;
+        }
+    
+        &__tablet-map:hover{
+            transition: 0.3s;
+            color: #F0145A;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.trust{
+    .container{
+        margin: 0 auto;
+        max-width: 1440px;
+    }
+
+    &__bottom-list{
+        width: 920px;
+        height: 344px;
+    }
+
+    &__top-img{
+        width: 400px;
+        height: 344px;
+    }
+
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+}

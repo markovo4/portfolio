@@ -1,0 +1,20 @@
+@import "base/index";
+
+
+@import "layouts/layout_000/index";
+
+@media only screen and (min-width: 768px){
+    @import "layouts/layout_768/index";
+}
+
+@media only screen and (min-width: 1024px){
+    @import "layouts/layout_1024/index";
+}
+
+@media only screen and (min-width: 1440px){
+    @import "layouts/layout_1440/index";
+}
+
+@media only screen and (min-width: 1920px){
+    @import "layouts/layout_1920/index";
+}

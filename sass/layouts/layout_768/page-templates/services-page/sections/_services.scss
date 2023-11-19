@@ -1,0 +1,20 @@
+.page-template-services{
+    .services{
+        .container{
+            padding: 280px 60px 60px 60px;
+            margin: 0 auto;
+            max-width: 768px;
+        }
+
+        &__list{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+        }
+
+        &__item-title:hover{
+            transition: 0.5s;
+            color:  #F0145A;
+        }
+    }
+}

@@ -1,0 +1,126 @@
+.page-template-services{
+    .header .container{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 768px;
+
+    }
+
+    .language-list{
+        display: flex;
+        justify-content: flex-start;
+
+        &__item{
+            color: var(--basic-white, #FFF);
+            text-align: center;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1px;
+            padding: 5px 7px;
+        }
+
+        &__item--active{
+            background-color:#F0145A;
+            border-radius: 8px;
+        }
+    }
+
+    .header{
+        position: absolute;
+        z-index: 99;
+        top: 0;
+        right: 0;
+        left: 0;
+
+        &__list-top{
+            display: none;
+        }
+
+        &__middle{
+            display: none;
+        }
+
+        &__logo{
+            display: none;
+        }
+
+        &__nav-bottom-list{
+            display: none;
+        }
+
+        &__bottom-wrapper{
+            display: flex;
+            align-items: center;
+        }
+    
+        &__bottom-slash{
+            max-width: 12px;
+            margin: 0 4px 3px 4px;
+        }
+    
+        &__logo-text{
+            color: var(--basic-white, #FFF);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        &__top{
+            display: flex; 
+            justify-content: space-between;
+            min-height: 44px;
+            align-items: center;
+            background-color: rgba(245, 245, 250, 0.20);
+            padding: 10px 15px;
+            a{
+                color: var(--basic-white, #FFF);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .language-list{
+                &__uk{
+                    font-size: 12px;
+                }
+
+                &__ru{
+                    font-size: 12px;
+                }
+
+                &__en{
+                    font-size: 12px;
+                }
+            }
+        }
+
+        &__nav-list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 57px;
+            padding: 0 15px;
+
+            a img{
+                width: 69.3px;
+                height: 32px;
+            }
+        }
+
+        &__menu{
+            padding: 0;
+            background-color: transparent;
+            border: none;
+        }
+
+
+    }
+
+}
+

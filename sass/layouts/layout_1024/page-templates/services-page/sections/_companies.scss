@@ -1,0 +1,14 @@
+.page-template-services{
+    .companies{
+        .container{
+            max-width: 1440px;
+        }
+    
+        &__list{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            width: 100%;
+    
+        }
+    }
+}
