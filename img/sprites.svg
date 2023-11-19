@@ -1,0 +1,36 @@
+<svg width="0" height="0" class="hidden">
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" id="Facebook-Headerfacebook">
+    <g clip-path="url(#clip0_119997_2805)">
+      <path d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z" ></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_119997_2805">
+        <rect width="24" height="24" fill="white" transform="translate(0 0.5)"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" id="Facebook-Footer">
+    <g clip-path="url(#clip0_120267_1266)">
+      <path d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_120267_1266">
+        <rect width="38" height="38" ></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" id="Scroll">
+    <g clip-path="url(#clip0_22728_12366)">
+      <circle opacity="0.5" cx="21" cy="21" r="20"  stroke-width="2"></circle>
+      <path d="M12 18L21 27L30 18"  stroke-width="2"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_22728_12366">
+        <rect width="42" height="42" fill="white"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" id="Ellipse">
+    <circle cx="8.5" cy="8" r="8" fill="#24A3FF"></circle>
+  </symbol>
+</svg>
